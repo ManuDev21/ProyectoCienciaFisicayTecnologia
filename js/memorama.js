@@ -70,7 +70,7 @@ function inicializarJuego() {
                     <img src="${carta.img}" alt="Concepto" class="card-image-style">
                 </div>
                 <div class="card-cover">
-                    <img src="${DORSO_IMAGEN}" alt="Dorso de Carta" class="card-image-style">
+                    <img src="${DORSO_IMAGEN}" alt="?" class="card-image-style">
                 </div>
             </div>
         `;
@@ -183,3 +183,4 @@ $(document).ready(function() {
     // Delegación de eventos para las tarjetas
     $('#tablero').on('click', '.memory-card', manejarClickCarta);
 });
+
